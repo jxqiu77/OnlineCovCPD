@@ -1,0 +1,30 @@
+\begin{table}[ht]
+\centering
+\begin{tabular}{llcccc}
+\toprule
+& & \multicolumn{4}{c}{Test Functions} \\
+\cmidrule(lr){3-6}
+Distribution & Weight & linear & log & mix & square \\
+\midrule
+\multirow{4}{*}{Gaussian}
+ & $\rho_{1,0}$ & 0.0840 & 0.0630 & 0.0620 & 0.1315 \\
+ & $\rho_{1,0.25}$ & 0.0855 & 0.0645 & 0.0680 & 0.1415 \\
+ & $\rho_{1,0.45}$ & 0.0825 & 0.0725 & 0.0830 & 0.1660 \\
+ & $\rho_{2}$ & 0.0135 & 0.0100 & 0.0090 & 0.0315 \\
+\midrule
+\multirow{4}{*}{Uniform}
+ & $\rho_{1,0}$ & 0.0535 & 0.0450 & 0.0570 & 0.1235 \\
+ & $\rho_{1,0.25}$ & 0.0600 & 0.0500 & 0.0670 & 0.1290 \\
+ & $\rho_{1,0.45}$ & 0.0710 & 0.0570 & 0.0780 & 0.1410 \\
+ & $\rho_{2}$ & 0.0055 & 0.0045 & 0.0070 & 0.0370 \\
+\midrule
+\multirow{4}{*}{TDist}
+ & $\rho_{1,0}$ & 0.0755 & 0.0890 & 0.0715 & 0.1585 \\
+ & $\rho_{1,0.25}$ & 0.0835 & 0.0885 & 0.0805 & 0.1645 \\
+ & $\rho_{1,0.45}$ & 0.1040 & 0.0810 & 0.0905 & 0.1715 \\
+ & $\rho_{2}$ & 0.0100 & 0.0190 & 0.0110 & 0.0455 \\
+\bottomrule
+\end{tabular}
+\caption{Empirical size under different test function, weighted functions and data distributions. The nominal level is $\alpha=0.05$.}
+\label{tab:empirical_size}
+\end{table}
