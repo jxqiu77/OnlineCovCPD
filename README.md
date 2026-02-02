@@ -2,7 +2,7 @@
 
 ---
 
-This repository contains the code for the paper "A spectral approach for online covariance change point detection" by Zhigang Bao, Kha Man Cheong, Yuji Li, Jiaxin Qiu (2026).
+This repository contains the code for the paper "[A spectral approach for online covariance change point detection](https://arxiv.org/abs/2601.22602)" by Zhigang Bao, Kha Man Cheong, Yuji Li, Jiaxin Qiu (2026).
 
 ## Project structure
 
